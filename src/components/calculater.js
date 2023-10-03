@@ -29,7 +29,7 @@ function Calculater() {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col-md-4">
+                    <div className="col-md-4" style={{width:"auto"}}>
                         <div className="card mb-3 pt-3 shadow">
                             <div className="card-body text-primary">
                                 <input type="text" className="form-control from-control-lg mb-4 text-center bg-light fs-4 text-primary shadow" value={val} onChange={(e) => setVal(e.target.value)} />
